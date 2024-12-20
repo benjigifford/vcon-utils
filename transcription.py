@@ -1,3 +1,5 @@
+# Transcribes audio files into vCons using OpenAI.
+
 import openai
 import json
 from datetime import datetime
