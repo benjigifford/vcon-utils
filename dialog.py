@@ -319,7 +319,7 @@ class Dialog:
                         self.metadata = {}
                     self.metadata["content_length"] = int(content_length)
         else:
-            raise Exception(f"Failed to fetch external data metadata: {response.status_code}")
+            raise Exception(f"Failed to fetch external data: {response.status_code}")
 
     def add_inline_data(self, body: str, filename: str, mimetype: str) -> None:
         """
